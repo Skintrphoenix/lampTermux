@@ -321,7 +321,7 @@ Here are some details about last version i use
   </details>
 
   <details open>
-  <summary>location of htdocs</summary>
+  <summary>index.php</summary>
 
   - Access Denied 403 Forbidden
 

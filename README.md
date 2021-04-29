@@ -11,7 +11,7 @@ Here are some details about last version i use
 - **PHP**                        `8.0.2`
 - **MariaDB**                    `15.1 Distrib 10.5.8-MariaDB, for Android (armv7-a)`
 - **Apache**                     `2.4.46 (Unix)`
-- **phpMyAdmin**                 `5.0.4`
+- **phpMyAdmin**                 `5.1.0`
 
 |PHP|MariaDB|Apache|phpMyAdmin|
 |--|--|--|--|

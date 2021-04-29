@@ -325,9 +325,9 @@ Here are some details about last version i use
 
   - Access Denied 403 Forbidden
 
-  |403 Forbidden|lamp-check|
-  |--|--|
-  |![403 Forbidden](/img/troubleshooting/myadmin/access_denied.jpg)|![403 Forbidden](/img/troubleshooting/myadmin/webserver.jpg)|
+  403 Forbidden
+  
+  ![403 Forbidden](/img/troubleshooting/index/IMG_20210429_103215.jpg)
 
   If you get this error, close and open your termux, and run this command
 

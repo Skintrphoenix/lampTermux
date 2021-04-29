@@ -56,7 +56,7 @@ Here are some details about last version i use
     ```
 
   - ```bash
-    $ git clone https://github.com/xshin404/lampTermux
+    $ git clone https://github.com/Skintrphoenix/lampTermux
     ```
 
   - ```bash

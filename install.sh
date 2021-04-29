@@ -25,17 +25,17 @@ function config() {
     fi
 
     echo -e "\n⚙️ Creating htdocs directory on 
-   $HOME/\n"
+   /sdcard/www/\n"
 
-    start_spinner "‏‏‎‏‏‎ ‎‏‏‎ ‎ 📦 /home/apache (htdocs)"
+    start_spinner "‏‏‎‏‏‎ ‎‏‏‎ ‎ 📦 /sdcard/www (htdocs)"
     sleep 2
 
-    if [[ -d $HOME/apache ]]; then
-        echo "<?php phpinfo(); ?>" >> $HOME/apache/index.php
+    if [[ -d /sdcard/www ]]; then
+        echo "<?php phpinfo(); ?>" >> /sdcard/www/phpinfo.php
         stop_spinner $?
     else
-        mkdir $HOME/apache
-        echo "<?php phpinfo(); ?>" >> $HOME/apache/index.php
+        mkdir /sdcard/www
+        echo "<?php phpinfo(); ?>" >> /sdcard/www/phpinfo.php
         stop_spinner $?
     fi
 

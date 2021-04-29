@@ -56,7 +56,11 @@ Here are some details about last version i use
     ```
 
   - ```bash
-    $ git clone https://github.com/Skintrphoenix/lampTermux
+    $ git clone https://github.com/Skintrphoenix/lampTermux.git
+    ```
+
+  - ```bash
+    $ termux-setup-storage
     ```
 
   - ```bash

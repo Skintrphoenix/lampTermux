@@ -321,7 +321,7 @@ Here are some details about last version i use
   </details>
 
   <details open>
-  <summary>phpMyAdmin</summary>
+  <summary>location of htdocs</summary>
 
   - Access Denied 403 Forbidden
 
@@ -329,46 +329,11 @@ Here are some details about last version i use
   |--|--|
   |![403 Forbidden](/img/troubleshooting/myadmin/access_denied.jpg)|![403 Forbidden](/img/troubleshooting/myadmin/webserver.jpg)|
 
-  If you get this error, change this text on apache configuration `/data/data/com.termux/files/usr/etc/apache2/httpd.conf`
-
-  |Require all denied|
-  |--|
-  |![Require all denied](/img/troubleshooting/myadmin/denied.png)|
+  If you get this error, close and open your termux, and run this command
 
   ```bash
-  229 ...
-  230 ...
-  231 ...
-  232 <Directory />
-  233       AllowOverride none
-  234       Require all denied
-  235 </Directory>
-  236 ...
-  237 ...
-  238 ...
+  $ termux-setup-storage
   ```
-
-  To
-
-  |Require all granted|
-  |--|
-  |![Require all denied](/img/troubleshooting/myadmin/granted.png)|
-
-  ```bash
-  229 ...
-  230 ...
-  231 ...
-  232 <Directory />
-  233       AllowOverride none
-  234       Require all granted
-  235 </Directory>
-  236 ...
-  237 ...
-  238 ...
-  ```
-
-
-  Change Require all `denied` to Require all `granted`
 
   <strong>Don't forget to restart apache with</strong> `killall httpd`
 

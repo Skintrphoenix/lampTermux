@@ -118,7 +118,7 @@ Here are some details about last version i use
 
   |Custom PATH 'htdocs'|
   |--|
-  |![Login Apache](/img/userconfigure/apache/htdocs.png)|
+  |![Login Apache](/img/userconfigure/apache/IMG_20210429_101623.jpg)|
 
   Default PATH htdocs on
 
@@ -139,8 +139,8 @@ Here are some details about last version i use
   246 ...
   247 ...
   248 ...
-  249 DocumentRoot "/data/data/com.termux/files/home/apache"
-  250 <Directory "/data/data/com.termux/files/home/apache">
+  249 DocumentRoot "/sdcard/www"
+  250 <Directory "/sdcard/www"> //default directory on Android = /sdcard
   251 ...
   252 ...
   253 ...

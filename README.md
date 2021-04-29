@@ -29,8 +29,8 @@ Here are some details about last version i use
 
 - **URL Apache**                        `http://localhost:8080`
 - **Default Port Apache**               `8080`
-- **Default MariaDB User**              `mysql -u $(whoami)`
-- **htdocs PATH**                       `$HOME/apache`
+- **Default MariaDB User**              `mysql -u root`
+- **htdocs PATH**                       `/sdcard/www`
 
 ### Overview
 
@@ -61,10 +61,6 @@ Here are some details about last version i use
 
   - ```bash
     $ cd lampTermux
-    ```
-
-  - ```bash
-    $ chmod +x install.sh
     ```
 
   - ```bash
